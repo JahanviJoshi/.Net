@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Master.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Wrapper">
+            <div class="menu">
+<ul>
+<li><a href="Home.aspx">Home Page</a></li>
+<li><a href="Contactus.aspx">Category</a></li>
+<li><a href="Aboutus.aspx">About us</a></li>
+</ul>
+</div>
+      
+            <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+                <div class="footer">
+                <h1><center>copy Right @ mkc.com</center></h1>
+                </div>
+                </div>
+        </div>
+    </form>
+</body>
+</html>

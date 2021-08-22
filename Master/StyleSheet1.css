@@ -1,0 +1,21 @@
+﻿body {
+    background-color: rgb(237,237,237);
+    font-family: Times New Roman;
+    font-size: 13px;
+
+}
+
+.footer {
+    background-color: blue;
+    height: 50px;
+    color: rgb(0,0,0);
+    top: 490px;
+    position: relative;
+    margin: 0px 0px 10px;
+    
+}
+.menu{
+    background-color:lightcoral;
+}
+
+
